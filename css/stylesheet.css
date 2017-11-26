@@ -1,0 +1,169 @@
+.main-navbar {
+	background: rgba(0,0,0,1);	
+}
+
+.commitments-slide {
+	max-height: 380px;
+	padding-left: 0;
+	padding-right: 0; 
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media(min-width:768px) {
+	.section {
+		padding-left: 5%;
+		padding-right: 5%;
+	}	
+	
+	.main-navbar {
+		background: rgba(0,0,0,0.0);
+		-webkit-transition: all .35s;
+		-moz-transition: all .35s;
+		transition: all .35s;
+		padding: 30px;
+	}
+
+	.main-navbar.affix {
+		background: rgba(0,0,0,0.7);
+		padding: 15px;
+	}
+
+	.commitments-slide {
+		max-height: 425px;
+	}
+}
+
+@media(min-width:1024px) {
+	.section {
+		padding-left: 15%;
+		padding-right: 15%;
+	}	
+	
+	.main-navbar {
+		background: rgba(0,0,0,0.0);
+		-webkit-transition: all .35s;
+		-moz-transition: all .35s;
+		transition: all .35s;
+		padding: 30px;
+	}
+
+	.main-navbar.affix {
+		background: rgba(0,0,0,0.7);
+		padding: 15px;
+	}
+
+	.commitments-slide {
+		max-height: 450px;
+	}
+}
+
+@media(min-width:1900px) {
+	.commitments-slide {
+		max-height: 490px;
+
+	}
+}
+
+.sectional-header {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+#productCarousel { 
+	padding: 0;
+	margin: 0;
+}
+
+
+.radio-carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.radio-carousel-indicators li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.radio-carousel-indicators li:hover {
+	border: 1px solid #fff;
+ 	background: #fff;
+}
+
+.radio-carousel-indicators .active {
+	border: 1px solid #fff;
+ 	background: #fff;
+}
+
+.charity-container {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background-color: black;
+	color: #FCFAFF;
+}
+
+.contact-us {
+	padding-bottom: 5%;
+}
+
+.main-footer {
+	color: #FCFAFF;
+}
+
+.sitemap-list {
+	margin: 0;
+	padding: 0;
+}
+
+.sitemap-list li {
+	list-style-type: none;
+}
+
+.team-photo {
+		min-height: 180px;
+		max-height: 1080px;
+		background-image: url("https://cdn.pixabay.com/photo/2017/03/07/13/03/mindmap-2123973_960_720.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;	
+		height: 100%;
+}
+
+.team-member-photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+
+.commit-icon {
+	font-size: 6em;
+}
+
+@media(min-height:768px) {
+	.team-photo {
+		min-height: 620px;
+		max-height: 1080px;
+		height: 100%;
+	}
+}
+
+.commitment-icon-container {
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+
