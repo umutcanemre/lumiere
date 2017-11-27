@@ -14,3 +14,8 @@ $(function() {
 		}
 	})
 })
+
+$('#productCarousel').on('slide.bs.carousel', function (e) {
+    var idx = $(e.relatedTarget).index();
+    $('[data-slide-to='+idx+']').button('toggle');
+});

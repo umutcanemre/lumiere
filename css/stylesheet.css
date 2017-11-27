@@ -2,6 +2,15 @@
 	background: rgba(0,0,0,1);	
 }
 
+.buy-section {
+
+	padding-bottom: 5%;
+}
+
+.trade-show-links {
+	padding-top: 5%;
+}
+
 .commitments-slide {
 	max-height: 380px;
 	padding-left: 0;
@@ -104,11 +113,6 @@
  	background: #fff;
 }
 
-.radio-carousel-indicators .active {
-	border: 1px solid #fff;
- 	background: #fff;
-}
-
 .charity-container {
 	padding-top: 4%;
 	padding-bottom: 4%;
@@ -118,6 +122,10 @@
 
 .contact-us {
 	padding-bottom: 5%;
+}
+
+footer {
+	padding-top: 5%;
 }
 
 .main-footer {
@@ -165,5 +173,4 @@
 	padding-top: 2%;
 	padding-bottom: 4%;
 }
-
 
