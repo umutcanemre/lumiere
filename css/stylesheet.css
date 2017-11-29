@@ -21,7 +21,6 @@
 
 
 
-
 .sectional-header {
 	padding-top: 4%;
 	padding-bottom: 4%;
@@ -136,6 +135,7 @@ footer {
 	}
 
 	.commitments-slide {
+		height: 450px;
 	}
 }
 
@@ -159,7 +159,7 @@ footer {
 	}
 
 	.commitments-slide {
-		max-height: 450px;
+		height: 450px;
 	}
 }
 
