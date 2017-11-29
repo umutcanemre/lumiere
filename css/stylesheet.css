@@ -19,60 +19,8 @@
 	margin-right: 0;
 }
 
-@media(min-width:768px) {
-	.section {
-		padding-left: 5%;
-		padding-right: 5%;
-	}	
-	
-	.main-navbar {
-		background: rgba(0,0,0,0.0);
-		-webkit-transition: all .35s;
-		-moz-transition: all .35s;
-		transition: all .35s;
-		padding: 30px;
-	}
 
-	.main-navbar.affix {
-		background: rgba(0,0,0,0.7);
-		padding: 15px;
-	}
 
-	.commitments-slide {
-		max-height: 425px;
-	}
-}
-
-@media(min-width:1024px) {
-	.section {
-		padding-left: 15%;
-		padding-right: 15%;
-	}	
-	
-	.main-navbar {
-		background: rgba(0,0,0,0.0);
-		-webkit-transition: all .35s;
-		-moz-transition: all .35s;
-		transition: all .35s;
-		padding: 30px;
-	}
-
-	.main-navbar.affix {
-		background: rgba(0,0,0,0.7);
-		padding: 15px;
-	}
-
-	.commitments-slide {
-		max-height: 450px;
-	}
-}
-
-@media(min-width:1900px) {
-	.commitments-slide {
-		max-height: 490px;
-
-	}
-}
 
 .sectional-header {
 	padding-top: 4%;
@@ -161,6 +109,67 @@ footer {
 	font-size: 6em;
 }
 
+.commitment-icon-container {
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+
+
+@media(min-width:768px) {
+	.section {
+		padding-left: 5%;
+		padding-right: 5%;
+	}	
+	
+	.main-navbar {
+		background: rgba(0,0,0,0.0);
+		-webkit-transition: all .35s;
+		-moz-transition: all .35s;
+		transition: all .35s;
+		padding: 30px;
+	}
+
+	.main-navbar.affix {
+		background: rgba(0,0,0,0.7);
+		padding: 15px;
+	}
+
+	.commitments-slide {
+	}
+}
+
+@media(min-width:1024px) {
+	.section {
+		padding-left: 15%;
+		padding-right: 15%;
+	}	
+	
+	.main-navbar {
+		background: rgba(0,0,0,0.0);
+		-webkit-transition: all .35s;
+		-moz-transition: all .35s;
+		transition: all .35s;
+		padding: 30px;
+	}
+
+	.main-navbar.affix {
+		background: rgba(0,0,0,0.7);
+		padding: 15px;
+	}
+
+	.commitments-slide {
+		max-height: 450px;
+	}
+}
+
+@media(min-width:1900px) {
+	.commitments-slide {
+		max-height: 490px;
+
+	}
+}
+
 @media(min-height:768px) {
 	.team-photo {
 		min-height: 620px;
@@ -168,9 +177,3 @@ footer {
 		height: 100%;
 	}
 }
-
-.commitment-icon-container {
-	padding-top: 2%;
-	padding-bottom: 4%;
-}
-
