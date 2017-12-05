@@ -1,3 +1,10 @@
+/* Background pattern from Subtle Patterns */
+
+body {
+	background-image: url("../img/paper-bg(2).png");
+	
+}
+
 .main-navbar {
 	background: rgba(0,0,0,1);	
 }
@@ -12,7 +19,7 @@
 }
 
 .commitments-slide {
-	max-height: 380px;
+	height: 380px;
 	padding-left: 0;
 	padding-right: 0; 
 	margin-left: 0;
@@ -61,6 +68,13 @@
 }
 
 .charity-container {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background-color: black;
+	color: #FCFAFF;
+}
+
+.charity-carousel-container {
 	padding-top: 4%;
 	padding-bottom: 4%;
 	background-color: black;
@@ -137,6 +151,11 @@ footer {
 	.commitments-slide {
 		height: 450px;
 	}
+
+	.charity-carousel-container {
+		padding-top: 8%;
+		padding-bottom: 4%;
+	}
 }
 
 @media(min-width:1024px) {
@@ -159,14 +178,19 @@ footer {
 	}
 
 	.commitments-slide {
-		height: 450px;
-	}
+		height: 500px;
+	}	
 }
 
 @media(min-width:1900px) {
 	.commitments-slide {
-		max-height: 490px;
+		height: 490px;
 
+	}
+
+	.charity-carousel-container {
+		padding-top: 5%;
+		padding-bottom: 4%;
 	}
 }
 
