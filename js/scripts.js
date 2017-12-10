@@ -1,4 +1,4 @@
-//change navbar stlye after they scroll past the carousel
+//change navbar style after they scroll past the carousel
 $(function() {
 	$(window).scroll(function() {
 		/*if($('#main-navbar').offset().top + $('#main-navbar').outerHeight(true) > $('#mainCarousel').height()) {
@@ -14,8 +14,3 @@ $(function() {
 		}
 	})
 })
-
-$('#productCarousel').on('slide.bs.carousel', function (e) {
-    var idx = $(e.relatedTarget).index();
-    $('[data-slide-to='+idx+']').button('toggle');
-});

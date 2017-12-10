@@ -7,7 +7,7 @@
 		<meta name="keywords" content="LED Cards, Holiday, Cards, Birthday, JA, Junior Achievement, JA Company">
 		<meta name="author" content="Umut Emre">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/megrim" type="text/css"/> 
 		<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<link rel="stylesheet" href="css\stylesheet.css">
@@ -40,36 +40,100 @@
 			</nav>
 		</div> 
 
-		<div class="team-photo">
+		<div class="team-photo parallax">
 		
 		</div>
 
 		<!--JA-->
-		<div class="container-fluid section">
-			<hr>
+		<div class="container-fluid section white-background ja-section">
+			<div class="container-fluid text-center"> 
+				<h1 class="">Who Are We?</h1> 
+			</div>
+			
 			<div class="row p-md-5 justify-content-center">
-				<div class="col-md-5 ja-column">
+				<div class="col-md-11 ja-column">
 					<h3 class="p-1 text-center text-md-left">Junior Achievement</h3>
 					<p class="p-1 text-center text-md-left"><em>"JA (Junior Achievement) is the world’s largest NGO dedicated to educating young people about business. We strive to inspire and prepare youth to succeed in a global economy. With over 120 member organizations worldwide, JA brings a global view of business to local communities. Our programs focused on financial literacy, work readiness and entrepreneurship give students the skills and confidence they need to become leaders of tomorrow."</em></p>
 					<p class="p-1 text-center text-md-left"> stuff stuff stuff stuff stuff stuffstuffstuff stuff stuffstuff</p>
 				</div>
 
-				<div class="col-md-4">
+				
+			</div>
+
+			<div class="row p-md-5 justify-content-center">
+				<div class="col-md-11">
 					<div id="" class="" data-ride="">
-						<h3 class="p-1 text-center text-md-left">We're with JA</h3>
-						<p class="p-1 text-center text-md-left">As a JA company we...</p>
-						<p class="p-1 text-center text-md-left">More stuff</p>
+						<h3 class="p-1 text-center text-md-left">As a JA company</h3>
+						<p class="p-1 text-center text-md-left"></p>
+						<p class="p-1 text-center text-md-left">Lot's of stuff about how we are students</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
 
-		<!--Commitments-->
-		<div class="text-center d-none d-lg-block"> 
-			<h3> Our Commitments </h3> 	
-			<br>
-			<div id="commitmentCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+			<div id="commitmentCarousel" class="carousel slide donations-carousel container" data-ride="carousel" data-interval="8000">
+				<ol class="carousel-indicators radio-carousel-indicators">
+					<li data-target="#commitmentCarousel" id="radio-indicator1" data-slide-to="0" class="active" checked="true"></li>
+					<li data-target="#commitmentCarousel" id="radio-indicator2" data-slide-to="1" ></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active donations-charity">
+						<hr>
+						<div class="donations-charity-content">
+							<div class="donations-title text-center text-md-left">
+								<h3>We're donating to Light Up The World</h3>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-lg-6">
+									<div class="charity-video">
+										<iframe src="https://player.vimeo.com/video/131809884" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="col-1"> </div>
+								<div class="col-8 col-lg-5">
+									<h3 class="charity-quote">Over 1 billion people do not have access to electricity. Light Up The World (LUTW) brings solar electricity to families living off-the-grid.</h3>
+
+									<p>Light Up the World is a non-profit organization dedicated to providing electricity to those who do not have it. We have the luxury of having electricity and lighting, however, many people in the world do not have any access to this. To help the global community, we have decided to donate 25% of all our total profit to Light Up The World. By purchasing one of our cards, you are supporting Light Up The World's cause.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item  donations-charity">
+						<hr>
+						<div class="donations-charity-content">
+							<div class="donations-title text-center text-md-left">
+								<h3>We give back to JA</h3>
+							</div>
+
+							<div class="row justify-content-center">	
+								<div class="col-8 col-lg-5">
+									<h3 class="charity-quote">By buying one of our cards, you support Junior Achievements efforts</h3>
+
+									<p>We give back to JA because we believe in a more educated world of students. We believe all students should have the oppurtunities to learn and grow in area's of business and finance. To support Junior Achievement, we will be giving them 25% of our profits.</p>
+								</div>
+
+								<div class="col-1"> </div>
+								<div class="col-6">
+									<div class="ja-logo">
+										<img src="img/ja.png" class="img-fluid">
+									</div>
+									<div class="company-logo">
+										<h1>Lumiere</h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		<!-- 
+		<div class="commitments text-center d-none d-lg-block"> 
+			<div id="commitmentCarousel" class="carousel slide" data-ride="carousel" data-interval="">
 				<ol class="carousel-indicators radio-carousel-indicators">
 					<li data-target="#commitmentCarousel" id="radio-indicator1" data-slide-to="0" class="active" checked="true"></li>
 					<li data-target="#commitmentCarousel" id="radio-indicator2" data-slide-to="1" ></li>
@@ -77,12 +141,14 @@
 
 				<div class="carousel-inner">
 					<div class="carousel-item active commitments-slide charity-carousel-container">
-						<div class="container-fluid section">
-							<div class="row p-5">
-								<div class="">
-									<h3 class="text-left p-2">We donate <b>25%</b> of our profit to charity</h3>
-									<p class="text-left p-2">1 in every 4 dollars we earn will go to <em> Light Up The Night </em> 	</p>
-									<p class="text-left p-2">They are a chairty focused on giving people electricity</p>
+						<div class="container-fluid charity">
+							<div class="charity-title container-fluid text-left">
+								<h1>We Donate 1 in Ever 4$ to Light Up The World</h1>
+							</div>
+
+							<div class="row p-5 text-left">
+								<div class="charity-video">
+									<iframe src="https://player.vimeo.com/video/131809884" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 								</div>
 							</div>
 						</div>
@@ -113,17 +179,17 @@
 					</div>
 				</div> 
 
-				<a class="carousel-control-prev" href="#commitmentCarousel" role="button" data-slide="prev">
+				<a class="carousel-control-prev carousel-control" href="#commitmentCarousel" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"> </span>
 					<span class="sr-only">Previous</span>
 				</a>
-				<a class="carousel-control-next" href="#commitmentCarousel" role="button" data-slide="next">
+				<a class="carousel-control-next carousel-control" href="#commitmentCarousel" role="button" data-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"> </span>
 					<span class="sr-only">Previous</span>
 				</a>
 			</div> 
 		</div>
-
+		-->
 
 		<!--Commitments Mobile-->
 		<div class="text-center d-md-none"> 
@@ -203,9 +269,10 @@
 
 		<!--Team-->
 		<div class="container-fluid text-center">
-			<hr>
-			<h3 class="p-1">Meet Us</h3>
-			<p class="p-1">Our Executive Team</p>
+			<div class="section">
+				<hr class="section">
+			</div>
+			<h3 class="p-1">Our Executive Team</h3>
 
 
 			<div class="row p-md-5 justify-content-center">
