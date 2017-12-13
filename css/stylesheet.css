@@ -279,9 +279,29 @@ footer {
 }
 
 @media(min-width:768px) {
+	.ct-btn-scroll {
+		margin: auto;
+    width: 50%;
+		height:;
+		position: absolute;
+		bottom: 30px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		padding-top: 95%;
+		z-index: 9;
+		border-radius: 50%;
+		-webkit-transition: background-color 0.25s ease-in-out;
+		transition: background-color 0.25s ease-in-out;
+	}
+
 	.section {
 		padding-left: 5%;
 		padding-right: 5%;
+	}
+
+	#section03 { 
+		background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;
 	}	
 
 	.donations-carousel {
@@ -325,6 +345,30 @@ footer {
 }
 
 @media(min-width:1024px) {
+	.carousel-fade .carousel-inner .item {
+	  opacity: 0;
+	  -webkit-transition-property: opacity;
+	  -moz-transition-property: opacity;
+	  -o-transition-property: opacity;
+	  transition-property: opacity;
+	}
+	.carousel-fade .carousel-inner .active {
+	  opacity: 1;
+	}
+	.carousel-fade .carousel-inner .active.left,
+	.carousel-fade .carousel-inner .active.right {
+	  left: 0;
+	  opacity: 0;
+	  z-index: 1;
+	}
+	.carousel-fade .carousel-inner .next.left,
+	.carousel-fade .carousel-inner .prev.right {
+	  opacity: 1;
+	}
+	.carousel-fade .carousel-control {
+	  z-index: 2;
+	}
+	
 	.section {
 		padding-left: 15%;
 		padding-right: 15%;
@@ -349,11 +393,11 @@ footer {
 
 	.company-logo h1 {
 		font-family: Megrim;
-		font-size: 6em;
+		font-size: 12em;
 	} 
 
 	.donations-carousel {
-		height: 80%;
+		height: 90%;
 	}
 }
 
