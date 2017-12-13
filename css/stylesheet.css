@@ -188,12 +188,7 @@ footer {
 
 .company-logo h1 {
 	font-family: Megrim;
-	font-size: 16em;
-}
-
-.donations-carousel .company-logo h1{
-	font-size: 8em;
-	float: right;
+	font-size: 4em;
 }
 
 .commitments {
@@ -241,7 +236,7 @@ footer {
 }
 
 .donations-carousel {
-	height: 65%;
+	height: 180%;
 }
 
 
@@ -276,12 +271,36 @@ footer {
 	padding-top: 5%;
 }
 
+@media(min-width: 350px) {
+	.donations-carousel {
+		height: 135%;
+	}
+
+}
+
 @media(min-width:768px) {
 	.section {
 		padding-left: 5%;
 		padding-right: 5%;
 	}	
+
+	.donations-carousel {
+		height: 90%;
+	}	
+
+	.company-logo h1 {
+		font-family: Megrim;
+		font-size: 12em;
+	}
+
+	.donations-carousel {
+		height: 180%;
+	}
 	
+	.donations-carousel .company-logo h1{
+	
+	}
+
 	.main-navbar {
 		background: rgba(0,0,0,0.0);
 		-webkit-transition: all .35s;
@@ -327,6 +346,15 @@ footer {
 	.commitments-slide {
 		height: 500px;
 	}	
+
+	.company-logo h1 {
+		font-family: Megrim;
+		font-size: 6em;
+	} 
+
+	.donations-carousel {
+		height: 80%;
+	}
 }
 
 @media(min-width:1900px) {
@@ -338,6 +366,15 @@ footer {
 	.charity-carousel-container {
 		padding-top: 5%;
 		padding-bottom: 4%;
+	}
+
+	.company-logo h1 {
+		font-family: Megrim;
+		font-size: 16em;
+	}
+
+	.donations-carousel {
+		height: 65%;
 	}
 }
 
