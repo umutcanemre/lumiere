@@ -10,7 +10,7 @@ $(function() {
 		}
 
 		else {
-			$('#main-navbar').removeClass('affix');
+			//$('#main-navbar').removeClass('affix');
 		}
 	})
 })

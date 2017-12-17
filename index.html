@@ -7,6 +7,7 @@
 		<meta name="keywords" content="LED Cards, Holiday, Cards, Birthday, JA, Junior Achievement, JA Company">
 		<meta name="author" content="Umut Emre">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/megrim" type="text/css"/> 
 		<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -22,19 +23,23 @@
 	</head>
 	
 	<body>
+
+
 		<div id="main-navbar-wrapper">
-			<nav class="navbar main-navbar transparent navbar-dark fixed-top navbar-expand-md" id="main-navbar" data-toggle="collapse" data-target="main-navbar-nav">
+			<nav class="navbar main-navbar transparent navbar-dark fixed-top navbar-expand-md affix" id="main-navbar" data-toggle="collapse" data-target="main-navbar-nav">
 				<div class="container-fluid text-left">
 					<div class="navbar-header">
 						<button class="navbar-toggler" type="button", data-toggle="collapse" data-target="#main-navbar-nav" aria-controls="main-navbar-nav">
 							<span class="navbar-toggler-icon"> </span>
 						</button>
-						<a class="navbar-brand" href="#index"> Lumiere </a>
+						<!-- <a class="navbar-brand" href="#index"> Lumiere </a> -->
 					</div>
 
 					<div class="collapse navbar-collapse " id="main-navbar-nav">
 						<ul class="navbar-nav nav-right ml-auto">
 							<li class="nav-item active"> <a class="nav-link" href="index.html"> HOME </a> </li>
+							<li class="nav-item"> <a class="nav-link" href="product.html"> PRODUCT </a> </li>
+							<li class="nav-item"> <a class="nav-link" href="about.html"> CHARITY </a> </li>
 							<li class="nav-item"> <a class="nav-link" href="about.html"> ABOUT </a> </li>
 							<li class="nav-item"> <a class="nav-link" href="how-to-buy.html"> HOW TO BUY </a> </li>
 							<li class="nav-item"> <a class="nav-link" href="contact.html"> CONTACT US </a> </li>
@@ -44,7 +49,94 @@
 			</nav>
 		</div>
 
-		<!-- Main Carousel -->
+
+
+
+
+		<div class="container-fluid front-image text-white">
+			<div class="container text-left front-title">
+				<h1>Lumiere</h1>
+				<h2>Greeting cards to brighten your day</h2>
+			</div>
+			<div class="gradient"> 
+				<div class="container-fluid row text-black text-center facts"> 
+					<div class="col 3">
+						<p>This is an interesting fact! </p>
+					</div>
+					<div class="col 3">
+						<p>This is an interesting fact! </p>
+					</div>
+					<div class="col 3">
+						<p>This is an interesting fact! </p>
+					</div>
+					<div class="col 3">
+						<p>This is an interesting fact! </p>
+					</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="container-fluid row justify-content-center pt-3 pb-3 front-info">
+			<div class="col-4">
+				<div class="card big-info">
+					<div class="card-body">
+						<h1> Big Text Info!</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-2">
+				<div class="card info-icon">
+					<div class="card-body">
+						<h3>Icon</h3>
+						<br>
+						<p>Information</p>
+						<a href="#"> Learn More </a>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="card info-icon">
+					<div class="card-body">
+						<h3>Icon</h3>
+						<br>
+						<p>Information</p>
+						<a href="#"> Learn More </a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-2">
+				<div class="card info-icon">
+					<div class="card-body">
+						<h3>Icon</h3>
+						<br>
+						<p>Information</p>
+						<a href="#"> Learn More </a>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="card info-icon">
+					<div class="card-body">
+						<h3>Icon</h3>
+						<br>
+						<p>Information</p>
+						<a href="#"> Learn More </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+
+		<!-- 
+		Main Carousel 
 		<div id="mainCarousel" class="carousel front-carousel" data-ride="carousel" data-interval="5000">
 			<ol class="carousel-indicators">
 				<li data-target="#mainCarousel" data-slide-to="0" class="active" checked="true"></li>
@@ -93,12 +185,12 @@
 
 		<br>
 
-		<!--About Title-->
+		About Title 
 		<div class="container-fluid text-center"> 
 			<h2 class="">About </h2> 
 		</div>
 
-		<!--JA-->
+		JA 
 		<div class="ja-container">
 				<div class="container-fluid section">
 					<hr>
@@ -119,12 +211,12 @@
 			</div>
 		<br>
 
-		<!--Our Product-->
+		Our Product 
 		<div class="container-fluid section">
 			<hr>
 			<div class="row justify-content-between">
 				<div class="col-md-4">
-					<!--Product Carousel-->
+					Product Carousel
 					<div id="productCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
 						<ol class="carousel-indicators radio-carousel-indicators">
 							<li data-target="#productCarousel" id="radio-indicator1" data-slide-to="0" class="active" checked="true"></li>
@@ -162,7 +254,7 @@
 			<br>
 		</div>
 
-		<!-- Charity -->
+		Charity
 		<div class="container-fluid section border charity-container">
 			<div class="row p-5 justify-content-between">
 				<div class="">
@@ -173,14 +265,14 @@
 			</div>
 		</div>
 
-		<!--How to buy Title-->
+		How to buy Title
 		<div class="container-fluid text-center sectional-header"> 	
 			<h2>How you can buy some</h2> 
 			<br>
 			<p>We will be attending a series of tradeshows and venues from which you can purchase a card</p>
 		</div>
 
-		<!-- Where and how to buy -->
+		Where and how to buy
 		<div class="container-fluid buy-section 	section text-center">
 			
 			<div class="row p-5 justify-content-between">
@@ -207,7 +299,7 @@
 
 		<br>
 
-		<!-- Contact Us -->
+		Contact Us
 		<div class="container-fluid section text-center contact-us">
 			<h3>Don't Be Shy</h3>
 			<br>
@@ -245,7 +337,7 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer> -->
 
 	</body>
 </html>

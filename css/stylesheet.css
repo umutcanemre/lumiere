@@ -1,10 +1,4 @@
 /* Background pattern from Subtle Patterns */
-
-body {
-
-	
-}
-
 html, body {
 	height: 100%;
 }
@@ -15,7 +9,114 @@ hr {
 
 .main-navbar {
 	background: rgba(0,0,0,1);	
+	font-size: 1.25em;
 }
+
+.main-navbar .navbar-brand {
+	font-family: Megrim;
+	font-size: 3em;
+}
+
+.front-image {
+	background-image: url("../img/card1.png");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	
+	height: 50%;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.front-image .front-title {
+	position: absolute;
+	bottom: 40%;
+	text-align: left;
+	left: 4%;
+	
+}
+
+.front-image .front-title h1 {
+	font-family: Megrim;
+	font-size: 8em;
+}
+
+.front-image .front-title h2 {
+	position: absolute;
+	font-size: 1.5em;
+	left: 2%;
+}
+
+.front-image .facts {
+	position: absolute;
+
+    font-size: 1.5em;
+    bottom: 0;
+}
+
+.front-image .gradient {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width:100%;
+    height:20%;
+    background: -moz-linear-gradient(top,  rgba(137,137,137,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(137,137,137,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089fff1', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.front-info {
+	background-color: #e8e8e8;
+	height: 50%;
+	width: 100%;
+	margin: auto;
+	position: relative;
+
+}
+
+.front-info .row {
+	height: 50%;
+	width: 100%;
+	margin: auto;
+	position: relative;
+
+}
+
+.front-info .card {
+	border-radius: 15px;
+}
+
+.front-info .col-2 {
+	border-radius: 15px;
+}
+
+.front-info .big-info {
+	background-color: white;
+
+	height: 100%;
+}
+
+.front-info .info-icon {
+	text-align: center;
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(min-width:1024px) {
+	
+}
+
+
+
+
 
 .front-carousel {
 	height: 90%;
