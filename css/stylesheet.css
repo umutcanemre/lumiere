@@ -21,6 +21,7 @@ hr {
 	background-image: url("../img/card3.png");
 	background-size: cover;
 	background-repeat: no-repeat; 
+	background-position: center;
 	
 	height: 100%;
 	width: 100%;
@@ -34,7 +35,7 @@ hr {
 	right: 0;
 	top: 0;
 	height: 100%;
-	background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.5) 100%); 
+	background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.3) 100%); 
 }
 
 .front-image .front-title {
@@ -145,13 +146,14 @@ hr {
 	padding-right: 0;
 	height: 150%;
 	width: 100%;
+	background-color: #E9ECEF;
 }
 
 .wizardry {
 	position: relative;
 	background-image: url("../img/logo.png");
 	background-repeat: no-repeat; 
-	background-size: 60%;
+	background-size: 30%;
 	background-position: center;
 
 
@@ -177,8 +179,46 @@ hr {
 }
 
 .showcase .product-image-wrapper {
-	height: 40%;
+	height: 80%;
 	width: 100%;
+	padding-bottom: 5%;
+	background-color: #E9ECEF;
+}
+
+.showcase .product-image {
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/product.png");
+	background-size: auto 100%;
+	background-repeat: no-repeat; 
+	background-position: top;
+}
+
+.product-description-wrapper {
+	height: 50%;
+	width: 100%;
+	margin: 0;
+}
+
+.product-description-wrapper h1 {
+	font-size: 8em;
+}
+
+.product-description-wrapper h3 {
+	font-size: 2.5em;
+}
+
+.commercial {
+	background-color: #E9ECEF;
+	height: 50%;
+	position: relative;
+}
+
+.commercial iframe{
+	position: absolute;
+
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
