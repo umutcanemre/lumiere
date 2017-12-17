@@ -222,7 +222,34 @@ hr {
 }
 
 
+.team-photo {
+	background-image: url("../img/team.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	height: 200%;
+}
 
+.team-member-photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.team-photo .card{
+	background-color: rgba(255, 255, 255, .5);
+
+}
+
+.team-photo .col-md-3{
+	padding-left: 2%;
+	padding-right: 2%;
+	
+}
+
+.logo {
+	font-family: Megrim;
+	font-size: 10em;
+}
 
 
 .front-carousel {
@@ -369,18 +396,7 @@ footer {
 	list-style-type: none;
 }
 
-.team-photo {
-		background-image: url("../img/team.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;	
-		height: 100%;
-}
 
-.team-member-photo {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-}
 
 
 .commit-icon {
@@ -510,10 +526,10 @@ footer {
 	padding-top: 5%;
 }
 
-@media(min-width: 350px) {
+/*@media(min-width: 350px) {
 	/*.donations-carousel {
 		height: 135%;
-	} */
+	} 
 
 }
 
@@ -672,4 +688,4 @@ footer {
 
 		height: 100%;
 	}
-}
+} */
