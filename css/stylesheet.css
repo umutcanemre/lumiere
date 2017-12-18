@@ -11,6 +11,24 @@ footer {
 	width: 100%;
 }
 
+footer a {
+	color: inherit;
+}
+
+footer a:hover {
+	color: inherit;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+
+
 .donations-carousel .radio-carousel-indicators li {
   display: inline-block;
   width: 12px;
@@ -40,7 +58,7 @@ footer {
 
 
 .main-navbar {
-	background: rgba(0,0,0,1);	
+	background: #CC231E;	
 	font-size: 1em;
 }
 
@@ -100,7 +118,6 @@ footer {
 
 .facts-wrapper {
 	position: absolute;
-	background-color: ;
 
 	bottom: 0;
 	padding-bottom: 0;
@@ -139,7 +156,7 @@ footer {
 	margin: auto;
 	position: absolute;
 	bottom: 20%;
-	background-color: black;
+	background-color: #CC231E;
 	left: 0;
 	right: 0;
 }
@@ -327,7 +344,7 @@ footer {
 	color: #FCFAFF;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background-color: #778899;
+	background-color: #F5624D;
 }
 
 .charity-cover {
@@ -373,6 +390,14 @@ footer {
 .charity-text {
 	height: 100%;
 	padding-top: 5%;
+}
+
+.buy-photo {
+	position: relative;
+	background-image: url("../img/card2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	height: 100%;
 }
 
 @media(min-width:768px) {
@@ -482,6 +507,7 @@ footer {
 
 .main-footer {
 	color: #FCFAFF;
+	background-color: #CC231E;
 }
 
 .sitemap-list {
