@@ -11,7 +11,29 @@ footer {
 	width: 100%;
 }
 
-footer .no-style-link {
+.donations-carousel .radio-carousel-indicators li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.donations-carousel .radio-carousel-indicators li:hover {
+	border: 1px solid white;
+ 	background: white;
+}
+
+.donations-carousel .radio-carousel-indicators li.active {
+	border: 1px solid white;
+ 	background: white;
+}
+
+.no-style-link {
 	color: inherit;
 	width: 100%;
 }
@@ -73,7 +95,7 @@ footer .no-style-link {
 	right: 0;
 	bottom: 0;
 	height: 100%;
-	background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.3) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.6) 100%);
 }
 
 .facts-wrapper {
@@ -147,38 +169,15 @@ footer .no-style-link {
 	height: 100%;
 }
 
-@media(min-width:768px) {
-	.scroll-btn {
-		position: absolute;
-		bottom: 20px;
-		left: 50%;
-		z-index: 2;
-		display: inline-block;
-		-webkit-transform: translate(0, -50%);
-		transform: translate(0, -50%);
-		color: #fff;
-		font : normal 400 20px/1 'Josefin Sans', sans-serif;
-		letter-spacing: .1em;
-		text-decoration: none;
-		transition: opacity .3s;
-	}
 
-	.scroll-btn:hover {
-		opacity: .5;
-	}
-}
-
-@media(min-width:1024px) {
-	
-}
 
 .showcase {
 	padding-left: 0;
 	padding-right: 0;
 	height: 150%;
 	width: 100%;
-	background-color: #7BBF6A;
-	color: white;
+	background-color: #FCFAFF;
+	color: black;
 }
 
 .wizardry {
@@ -214,7 +213,7 @@ footer .no-style-link {
 	height: 80%;
 	width: 100%;
 	padding-bottom: 5%;
-	background-color: #7BBF6A;
+	background-color: #FCFAFF;
 }
 
 .showcase .product-image {
@@ -230,7 +229,7 @@ footer .no-style-link {
 	height: 50%;
 	width: 100%;
 	margin: 0;
-	background-color: #7BBF6A;
+	background-color: #FCFAFF;
 }
 
 .product-description-wrapper h1 {
@@ -243,8 +242,8 @@ footer .no-style-link {
 
 .commercial {
 	text-align: center;
-	background-color: #7BBF6A;
-	height: 50%;
+	background-color: #FCFAFF;
+
 	position: relative;
 	padding-top: 5%;
 }
@@ -331,11 +330,81 @@ footer .no-style-link {
 	background-color: #778899;
 }
 
+.charity-cover {
+	background-color: black;
+	color: white;
+	
+}
 
+.charity-cover-text {
+	padding-top: 10%;
 
+}
 
+.charity-cover-text h1 {
+	font-size: 3em;
+}
 
+.donations-carousel {
+	height: 80%;
+}
+.donations-charity {
+	height: 80%;
+}
 
+.donations-charity .charity-video {
+	left: 0;
+	padding-left: 0;
+	margin-left: 0;
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; overflow: hidden; 
+	max-width: 100%; height: auto;  
+}
+
+.charity-video iframe, .charity-video object, .charity-video embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.charity-text {
+	height: 100%;
+	padding-top: 5%;
+}
+
+@media(min-width:768px) {
+	.scroll-btn {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		z-index: 2;
+		display: inline-block;
+		-webkit-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+		color: #fff;
+		font : normal 400 20px/1 'Josefin Sans', sans-serif;
+		letter-spacing: .1em;
+		text-decoration: none;
+		transition: opacity .3s;
+	}
+
+	.scroll-btn:hover {
+		opacity: .5;
+	}
+}
+
+@media(min-width:1900px) {
+	.donations-carousel {
+		height: 60%;
+	}
+	.donations-charity {
+		height: 60%;
+	}
+
+}
 
 
 
@@ -399,27 +468,7 @@ footer .no-style-link {
  	background: #fff;
 }
 
-.donations-carousel .radio-carousel-indicators li {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 1px;
-  cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-}
 
-.donations-carousel .radio-carousel-indicators li:hover {
-	border: 1px solid black;
- 	background: black;
-}
-
-.donations-carousel .radio-carousel-indicators li.active {
-	border: 1px solid black;
- 	background: black;
-}
 
 .charity-container {
 	padding-top: 4%;
@@ -523,56 +572,17 @@ footer .no-style-link {
 	
 }
 
-.donations-carousel .carousel-control {
-	width: 5%;
-}
-
-.donations-charity {
-
-	height: 100%;
-
-}
-
 
 .donations-charity .donations-title {
 	padding-bottom: 2%;
 }
 
-.donations-carousel {
-	height: 180%;
-}
-
-
-.donations-charity .carousel-item {
-
-}
 
 .donations-charity .donations-charity-content {
 	padding-top: 5%;
 }
 
-.donations-charity .charity-video {
-	left: 0;
-	padding-left: 0;
-	margin-left: 0;
-	position: relative; 
-	padding-bottom: 56.25%; 
-	height: 0; overflow: hidden; 
-	max-width: 100%; height: auto;  
-}
 
-.charity-video iframe, .charity-video object, .charity-video embed { 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 100%; 
-	height: 100%; 
-}
-
-.charity-text {
-	height: 100%;
-	padding-top: 5%;
-}
 
 /*@media(min-width: 350px) {
 	/*.donations-carousel {
