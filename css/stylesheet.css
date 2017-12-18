@@ -7,6 +7,16 @@ hr {
 	height: 2px; 
 }
 
+footer {
+	width: 100%;
+}
+
+footer .no-style-link {
+	color: inherit;
+	width: 100%;
+}
+
+
 .main-navbar {
 	background: rgba(0,0,0,1);	
 	font-size: 1em;
@@ -138,7 +148,24 @@ hr {
 }
 
 @media(min-width:768px) {
+	.scroll-btn {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		z-index: 2;
+		display: inline-block;
+		-webkit-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+		color: #fff;
+		font : normal 400 20px/1 'Josefin Sans', sans-serif;
+		letter-spacing: .1em;
+		text-decoration: none;
+		transition: opacity .3s;
+	}
 
+	.scroll-btn:hover {
+		opacity: .5;
+	}
 }
 
 @media(min-width:1024px) {
@@ -150,7 +177,7 @@ hr {
 	padding-right: 0;
 	height: 150%;
 	width: 100%;
-	background-color: #CC231E;
+	background-color: #7BBF6A;
 	color: white;
 }
 
@@ -187,7 +214,7 @@ hr {
 	height: 80%;
 	width: 100%;
 	padding-bottom: 5%;
-	background-color: #CC231E;
+	background-color: #7BBF6A;
 }
 
 .showcase .product-image {
@@ -203,7 +230,7 @@ hr {
 	height: 50%;
 	width: 100%;
 	margin: 0;
-	background-color: #34A65F;
+	background-color: #7BBF6A;
 }
 
 .product-description-wrapper h1 {
@@ -216,7 +243,7 @@ hr {
 
 .commercial {
 	text-align: center;
-	background-color: #34A65F;
+	background-color: #7BBF6A;
 	height: 50%;
 	position: relative;
 	padding-top: 5%;
@@ -235,7 +262,7 @@ hr {
 	background-image: url("../img/team.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;	
-	height: 200%;
+	height: 100%;
 }
 
 .team-member-photo {
@@ -257,7 +284,7 @@ hr {
 
 .logo {
 	font-family: Megrim;
-	font-size: 10em;
+	font-size: 6em;
 }
 
 
@@ -296,6 +323,19 @@ hr {
 .faicon {
 	font-size: 30px;
 }
+
+.contact-us {
+	color: #FCFAFF;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #778899;
+}
+
+
+
+
+
+
 
 
 
@@ -388,13 +428,8 @@ hr {
 	color: #FCFAFF;
 }
 
-.contact-us {
-	padding-bottom: 5%;
-}
 
-footer {
-	padding-top: 5%;
-}
+
 
 .main-footer {
 	color: #FCFAFF;
@@ -550,24 +585,7 @@ footer {
 	.front-carousel {
 	}
 
-	.scroll-btn {
-		position: absolute;
-		bottom: 20px;
-		left: 50%;
-		z-index: 2;
-		display: inline-block;
-		-webkit-transform: translate(0, -50%);
-		transform: translate(0, -50%);
-		color: #fff;
-		font : normal 400 20px/1 'Josefin Sans', sans-serif;
-		letter-spacing: .1em;
-		text-decoration: none;
-		transition: opacity .3s;
-	}
-
-	.scroll-btn:hover {
-		opacity: .5;
-	}
+	
 
 	.section {
 		padding-left: 5%;
