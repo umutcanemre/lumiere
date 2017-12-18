@@ -35,7 +35,7 @@ hr {
 	right: 0;
 	top: 0;
 	height: 100%;
-	background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.3) 100%); 
+	background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.4) 100%); 
 }
 
 .front-image .front-title {
@@ -57,13 +57,21 @@ hr {
 	left: 2%;
 }
 
+.facts-gradient {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.6) 100%);
+}
 
 .facts-wrapper {
 	position: absolute;
 	background-color: ;
-	height: 20%;
+
 	bottom: 0;
-	padding-top: 2%;
+	padding-bottom: 0;
 	left: 0;
 	width: 100%;
 
@@ -71,14 +79,13 @@ hr {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(137,137,137,0)), color-stop(100%,rgba(0,0,0,1))); 
     background: -webkit-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); 
     background: -o-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); 
-    background: -ms-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); */
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,1) 100%); 
+    background: -ms-linear-gradient(top,  rgba(137,137,137,0) 0%,rgba(0,0,0,1) 100%); */ 
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089fff1', endColorstr='#000000',GradientType=0 );*/ 
 }
 
 
 .facts {
-	padding-top: 0.5%;
+	padding-top: %;
     font-size: 1.5em;
     /*bottom: 0;
     position: absolute;
@@ -95,7 +102,7 @@ hr {
 }
 
 .front-info {
-	height: 20%;
+
 	width: 100%;
 	margin: auto;
 	position: absolute;
@@ -105,20 +112,17 @@ hr {
 	right: 0;
 }
 
-.front-info .row {
-	height: 50%;
-	width: 100%;
-	margin: auto;
-	position: relative;
-
+.front-info .col-2 {
+	height: 500%;
 }
 
 .front-info .card {
 	border-radius: 15px;
+	position: relative;
 }
 
-.front-info .col-2 {
-	max-height: 100%;
+.front-info .icon-wrapper {
+	height: 100%;
 }
 
 .front-info .big-info {
@@ -223,6 +227,7 @@ hr {
 
 
 .team-photo {
+	position: relative;
 	background-image: url("../img/team.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;	
