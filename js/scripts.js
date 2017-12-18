@@ -13,7 +13,9 @@ $(function() {
 			//$('#main-navbar').removeClass('affix');
 		}
 	})
-})
+});
+
+
 
 /*$('a[href*="#"]') 
 	.not("[href='#']")
