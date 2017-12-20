@@ -72,7 +72,7 @@ a:hover {
 	background-image: url("../img/card3.png");
 	background-size: cover;
 	background-repeat: no-repeat; 
-	background-position: center;
+	background-position: center;	
 	
 	height: 100%;
 	width: 100%;
@@ -246,12 +246,12 @@ a:hover {
 .commercial {
 	text-align: center;
 	background-color: #FCFAFF;
-
+	height: 55%;
 	position: relative;
-	padding-top: 5%;
+	padding-top: 0%;
 }
 
-.commercial iframe{
+.commercial iframe h3{
 	position: absolute;
 	bottom: 0;
 	left: 50%;
