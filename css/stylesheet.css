@@ -20,11 +20,12 @@ footer a:hover {
 }
 
 a {
-	color: black;
+	color: inherit;
 }
 
 a:hover {
-	color: black;
+	color: inherit;
+	text-decoration: none;
 }
 
 
@@ -147,6 +148,7 @@ a:hover {
 	width: 100%;
 	margin: auto;
 	position: absolute;
+	position: fixed;
 	bottom: 25%;
 	background-color: #CC231E;
 	left: 0;
