@@ -236,11 +236,19 @@ a:hover {
 }
 
 .product-description-wrapper h1 {
-	font-size: 8em;
+	font-size: 10em;
 }
 
-.product-description-wrapper h3 {
-	font-size: 2.5em;
+.product-description-wrapper h2 {
+	font-size: 3.5em;
+}
+
+.product-description-wrapper h2 {
+	font-size: 3.5em;
+}
+
+.product-description h5 {
+	font-size: 1.75em;
 }
 
 .commercial {
@@ -256,6 +264,10 @@ a:hover {
 	bottom: 0;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.commercial h3 {
+	font-size: 2em;
 }
 
 
@@ -324,6 +336,10 @@ a:hover {
 
 .faicon {
 	font-size: 30px;
+}
+
+.front-info .faicon {
+	font-size: 60px;
 }
 
 .contact-us {
