@@ -7,7 +7,7 @@ hr {
 	height: 2px; 
 }
 
-footer {
+footer {	
 	width: 100%;
 }
 
@@ -174,31 +174,18 @@ a:hover {
 
 
 
-.showcase {
-	padding-left: 0;
-	padding-right: 0;
-	height: 150%;
-	width: 100%;
-	background-color: #FCFAFF;
-	color: black;
-}
+
 
 .wizardry {
-	position: relative;
-	background-image: url("../img/logo.png");
+	background-image: url("../img/lightbulb.png");
 	background-repeat: no-repeat; 
-	background-size: 30%;
+	background-size: 75%;
 	background-position: center;
-
-
-	height: 66%;
+	height: 80%;
 	width: 100%;
-
 }
 
-.logo-image {
-	
-
+/*.logo-image {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -210,16 +197,16 @@ a:hover {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
+} */
 
-.showcase .product-image-wrapper {
-	height: 80%;
+.product-image-wrapper {
+	height: 100%;
 	width: 100%;
 	padding-bottom: 5%;
-	background-color: #FCFAFF;
+	background-color: #F0BDBC;
 }
 
-.showcase .product-image {
+.product-image {
 	height: 100%;
 	width: 100%;
 	background-image: url("../img/product.png");
@@ -229,45 +216,37 @@ a:hover {
 }
 
 .product-description-wrapper {
-	height: 50%;
 	width: 100%;
 	margin: 0;
-	background-color: #FCFAFF;
+	background-color: #F0BDBC;
 }
 
 .product-description-wrapper h1 {
 	font-size: 10em;
+	color: #CC231E;
 }
 
 .product-description-wrapper h2 {
 	font-size: 3.5em;
+	color: #F5624D;
+
 }
 
-.product-description-wrapper h2 {
-	font-size: 3.5em;
-}
 
 .product-description h5 {
 	font-size: 1.75em;
 }
 
 .commercial {
+	padding-top: 5%;
+	padding-bottom: 5%;
 	text-align: center;
-	background-color: #FCFAFF;
-	height: 55%;
-	position: relative;
-	padding-top: 0%;
+	background-color: #F0BDBC;
 }
 
-.commercial iframe h3{
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
 
 .commercial h3 {
-	font-size: 2em;
+	font-size: 3.5em;
 }
 
 
@@ -302,7 +281,7 @@ a:hover {
 }
 
 
-.front-carousel {
+/*.front-carousel {
 	height: 90%;
 }
 
@@ -332,7 +311,7 @@ a:hover {
 .front-carousel .carousel-inner{
 	height: 100%;
 
-}
+} */
 
 .faicon {
 	font-size: 30px;
@@ -400,6 +379,18 @@ a:hover {
 	background-size: cover;
 	background-repeat: no-repeat;	
 	height: 100%;
+}
+
+.contact-form {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+.contact-form iframe {
+	width: 100%;
+	border: 0;
+	margin: auto;
 }
 
 @media(min-width:768px) {
