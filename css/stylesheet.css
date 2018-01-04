@@ -28,7 +28,9 @@ a:hover {
 	text-decoration: none;
 }
 
-
+.faicon {
+	font-size: 30px;
+}
 
 .donations-carousel .radio-carousel-indicators li {
   display: inline-block;
@@ -155,14 +157,12 @@ a:hover {
 	right: 0;
 }
 
-.front-info .big-info {
-
+.front-info .faicon {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	font-size: 60px;
 }
 
-.front-info .info-icon {
-	text-align: center;
-	max-height: 46.5%;
-}
 
 .icon-wrapper h3 {
 	font-size: 1.25em;
@@ -313,13 +313,7 @@ a:hover {
 
 } */
 
-.faicon {
-	font-size: 30px;
-}
 
-.front-info .faicon {
-	font-size: 60px;
-}
 
 .contact-us {
 	color: #FCFAFF;
