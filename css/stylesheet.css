@@ -181,7 +181,7 @@ a:hover {
 	background-repeat: no-repeat; 
 	background-size: 75%;
 	background-position: center;
-	height: 80%;
+	height: 90%;
 	width: 100%;
 }
 
@@ -203,7 +203,7 @@ a:hover {
 	height: 100%;
 	width: 100%;
 	padding-bottom: 5%;
-	background-color: #F0BDBC;
+	background-color: #f9e4e4;
 }
 
 .product-image {
@@ -218,7 +218,7 @@ a:hover {
 .product-description-wrapper {
 	width: 100%;
 	margin: 0;
-	background-color: #F0BDBC;
+	background-color: #f9e4e4;
 }
 
 .product-description-wrapper h1 {
@@ -241,12 +241,13 @@ a:hover {
 	padding-top: 5%;
 	padding-bottom: 5%;
 	text-align: center;
-	background-color: #F0BDBC;
+	background-color: #f9e4e4;
 }
 
 
 .commercial h3 {
 	font-size: 3.5em;
+	color: #F5624D;
 }
 
 
